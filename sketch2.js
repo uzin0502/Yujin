@@ -1,3 +1,4 @@
+//Snowfall//
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	frameRate(6);
