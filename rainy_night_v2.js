@@ -28,8 +28,8 @@ function rainDrop(x, y, vy, sz, c) {
     ellipse(this.x, this.y, 2, this.sz);
   }
 }
-//function preload() {
-  //rainSound = loadSound('rain_inside_house.mp3');
+function preload() {
+  rainSound = loadSound('rain_inside_house.mp3');
 }
 function setup() { 
   createCanvas(windowWidth, windowHeight);
@@ -39,7 +39,7 @@ function setup() {
       random(0, windowWidth), random(0, windowHeight), random(30, 100), 
       random(30, 100), color(random(100, 255)) );
   }
-  //rainSound.loop();
+  rainSound.loop();
 }
 function draw() { 
   background(0);
