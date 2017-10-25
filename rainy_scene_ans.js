@@ -1,3 +1,5 @@
+//Rainy Scene//
+
 var max_rainDrops = 1000;
 var rainDrops = [];
 
