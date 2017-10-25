@@ -1,3 +1,5 @@
+//Rainy Scene.v2//
+
 var max_rainDrops = 1000;
 var rainDrops = [];
 var rainSound;
